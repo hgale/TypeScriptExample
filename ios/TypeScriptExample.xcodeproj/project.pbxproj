@@ -692,6 +692,10 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 8CY96XU47F;
+						ProvisioningStyle = Manual;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -1205,8 +1209,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 8CY96XU47F;
 				INFOPLIST_FILE = TypeScriptExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1215,6 +1222,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = TypeScriptExample;
+				PROVISIONING_PROFILE = "a9e8ab4a-5379-4893-b946-8a82e2550443";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.TypeScriptExampleHT.app";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1223,7 +1232,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 8CY96XU47F;
 				INFOPLIST_FILE = TypeScriptExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1232,6 +1244,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = TypeScriptExample;
+				PROVISIONING_PROFILE = "3a65ab73-a301-43c7-9b34-45e7c50b2b57";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.TypeScriptExampleHT.app";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

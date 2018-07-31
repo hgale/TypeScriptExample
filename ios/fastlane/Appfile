@@ -1,0 +1,8 @@
+app_identifier("com.TypeScriptExampleHT.app") # The bundle identifier of your app
+apple_id("slander@unworkable.org") # Your Apple email address
+
+itc_team_id("570334") # App Store Connect Team ID
+team_id("8CY96XU47F") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
