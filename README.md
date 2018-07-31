@@ -3,7 +3,7 @@
 ## Setup steps
 
 ```
-For development: 
+Coming soon.
 
 ```
 
